@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: blueviolet;
+
+}
+
+.yeni {
+    width: 100%;
+    height: auto;
+    min-height: 120vh;
+    display: block;
+
+}
+
+.slider {
+    width: 100%;
+    height: 400px;
+
+}
+
+.slider img {
+    width: 100%;
+    height: 400px;
+}
+
+.yan {
+    width: 100px;
+    height: 180px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+    float: left;
+
+}
+
+ul {
+list-style: none;
+
+}
+li{
+margin-bottom: 15px;
+font-size: 20px;
+}
+.icerik{
+width: 75%;
+height: 500px;
+background-image: url(pexels.jpg);
+background-repeat:no-repeat ;
+float: right;
+margin-right: 200px;
+margin-top: 50px;
+}
+.icerik p{
+background-color: rgb(165, 42, 42, 0.4);
+color: white;
+padding: 20px;
+}
+.footer{
+width: 100%;
+height: 400px;
+background-color: rgb(38, 0, 255);
+float: left;
+margin-top: 50px;
+display: flex;
+
+}
+.foot{
+width: 300px;
+height: 400px;
+background-color: blanchedalmond;
+margin-right: 7px;
+text-align: center;
+}
+.ortalama{
+display: flex;
+margin-right: auto;
+margin-left: auto;
+
+}
+.foot h1{
+margin-top: 30px;
+text-decoration: underline red;
+}
